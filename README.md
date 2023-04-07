@@ -7,7 +7,7 @@ This project is based on Pico S2 device that runs micropython in version v1.19.1
 
 The sensor used to collect temperature and humidity is DHT22.
 
-The script is running in an event loop and sensor data are collectedevery second and showing output on oled screen but at the same time there is a task that sends data to ThingSpeak cloud every 5min.
+The script is running in an event loop and sensor data are collected every second and showing output on oled screen but at the same time there is a task that sends data to ThingSpeak cloud every 5min.
 
 
 <img src="device_photo.jpg" alt= “” width="430" height="300">
